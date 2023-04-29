@@ -1,13 +1,11 @@
 ---
 title: "Durham Expunction"
-# date: 2023-04-29T14:53:24-04:00
-tags: ["active"]
+date: 2021-02-15T14:53:24-04:00
+tags: ["active-project"]
 draft: false
 ---
 
 ![DEAR logo](dear-logo.png)
-
-## Summary
 
 In partnership with the [Durham Expunction and Restoration Project
 (DEAR)](https://www.deardurham.org/), the Code with Durham team developed a tool
