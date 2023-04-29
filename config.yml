@@ -1,3 +1,21 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: Code with Durham
+theme: PaperMod
+params:
+  profileMode:
+    enabled: true
+    subtitle: "Volunteer civic hackers working together with local government and nonprofits to help solve local issues in and around Durham, North Carolina."
+    imageUrl: logo.svg
+    imageTitle: Code with Durham logo
+    imageWidth: 256
+    imageHeight: 256
+  socialIcons:
+    - name: github
+      url: https://github.com/codefordurham
+    - name: discord
+      url: https://discord.gg/JvCyFZ2YMK
+    - name: twitter
+      url: https://twitter.com/codefordurham
+    - name: facebook
+      url: https://www.facebook.com/codefordurham/
