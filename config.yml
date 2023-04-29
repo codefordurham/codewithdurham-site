@@ -2,7 +2,27 @@ baseURL: http://example.org/
 languageCode: en-us
 title: Code with Durham
 theme: PaperMod
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Projects
+          url: project
+          weight: 5
+outputs:
+  home: ["HTML", "RSS", "JSON"]
 params:
+  env: production
+  enableSearch: true
+  enableCodeCopy: true
+  project:
+    showAuthor: true
   profileMode:
     enabled: true
     subtitle: "Volunteer civic hackers working together with local government and nonprofits to help solve local issues in and around Durham, North Carolina."
@@ -10,6 +30,12 @@ params:
     imageTitle: Code with Durham logo
     imageWidth: 256
     imageHeight: 256
+  showBreadCrumbs: true
+  showCodeCopyButtons: true
+  showReadingTime: true
+  showTableOfContents: true
+  showTaxonomies: true
+  showWordCount: true
   socialIcons:
     - name: github
       url: https://github.com/codefordurham
