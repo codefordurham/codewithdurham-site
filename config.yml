@@ -16,6 +16,8 @@ languages:
           url: code-of-conduct
         - name: Projects
           url: project
+        - name: Discord
+          url: https://discord.gg/JvCyFZ2YMK
 outputs:
   home: ["HTML", "RSS", "JSON"]
 params:
