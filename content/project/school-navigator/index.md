@@ -12,4 +12,4 @@ Public School System. Our goal is to provide an enhancements on the existing DPS
 web tools geared at helping families easily have access to the information that
 they need to make education decisions.
 
-* GitHub: https://github.com/codefordurham/school-navigator
+* **GitHub:** https://github.com/codefordurham/school-navigator
