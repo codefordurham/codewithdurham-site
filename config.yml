@@ -18,6 +18,8 @@ languages:
           url: project
         - name: Discord
           url: https://discord.gg/JvCyFZ2YMK
+        - name: Open Collective
+          url: https://opencollective.com/codewithdurham
 outputs:
   home: ["HTML", "RSS", "JSON"]
 params:
